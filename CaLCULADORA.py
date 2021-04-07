@@ -1,21 +1,27 @@
 Operación = input("Elige una opción 1. Sumar 2. Restar 3. Multiplicar 4. Dividir: ")
 
-Valor1 = int(input("Escribe tu primer valor: "))
-Valor2 = int(input("Escribe tu segundo valor: "))
-
 if Operación == ("1"):
+    Valor1 = int(input("Escribe tu primer valor: "))
+    Valor2 = int(input("Escribe tu segundo valor: "))
+
     print(Valor1 + Valor2)
-    
-elif Operación == ("2"):
+if Operación == ("2"):
+    Valor1 = int(input("Escribe tu primer valor: "))
+    Valor2 = int(input("Escribe tu segundo valor: "))
+
     print(Valor1 - Valor2)
-    
-elif Operación == ("3"):
+if Operación == ("3"):
+    Valor1 = int(input("Escribe tu primer valor: "))
+    Valor2 = int(input("Escribe tu segundo valor: "))
+
     print(Valor1 * Valor2)
-    
-elif Operación == ("4"):
+if Operación == ("4"):
+    Valor1 = int(input("Escribe tu primer valor: "))
+    Valor2 = int(input("Escribe tu segundo valor: "))
+
     print(Valor1 / Valor2)
-    
 else:
-    print("Tienes que elegir una de las opciones anteriormente mencionadas")
-    
-    
+    print("Elige una de las opciones anteriormente mencionadas.")
+
+
+
