@@ -15,3 +15,7 @@ elif Operacion == ("3"):
 elif Operacion == ("4"):
     print(Valor1 / Valor2)
     
+else:
+    print("Tienes que elegir una de las opciones anteriormente mencionadas")
+    
+    
