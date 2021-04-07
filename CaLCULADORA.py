@@ -6,13 +6,13 @@ Valor2 = int(input("Escribe tu segundo valor: "))
 if Operación == ("1"):
     print(Valor1 + Valor2)
     
-elif Operacion == ("2"):
+elif Operación == ("2"):
     print(Valor1 - Valor2)
     
-elif Operacion == ("3"):
+elif Operación == ("3"):
     print(Valor1 * Valor2)
     
-elif Operacion == ("4"):
+elif Operación == ("4"):
     print(Valor1 / Valor2)
     
 else:
