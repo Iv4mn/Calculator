@@ -23,7 +23,7 @@ if Operación == ("4"):
 
     print(Valor1 / Valor2)
     
-#And here the code tells you that you need to choose a correct option, if you hadn't choosed it
+#And here the code tells you that you need to choose a correct option, if you hadn't choosed it correctly.
 else:
     print("Elige una de las opciones anteriormente mencionadas.")
 
