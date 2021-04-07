@@ -1,27 +1,36 @@
+#Here the code request you to choose an option
 Operación = input("Elige una opción 1. Sumar 2. Restar 3. Multiplicar 4. Dividir: ")
 
 #Here are the different options and code request you the value for the numbers that you want to calculate
+
+#ADD
 if Operación == ("1"):
     Valor1 = int(input("Escribe tu primer valor: "))
     Valor2 = int(input("Escribe tu segundo valor: "))
+    int= Valor1 + Valor2
+    print("Tu resultado es",int)
 
-    print(Valor1 + Valor2)
+#ABSTRACT
 elif Operación == ("2"):
     Valor1 = int(input("Escribe tu primer valor: "))
     Valor2 = int(input("Escribe tu segundo valor: "))
+    int= Valor1 - Valor2
+    print("Tu resultado es",int)
 
-    print(Valor1 - Valor2)
+#MULTIPLICATE
 elif Operación == ("3"):
     Valor1 = int(input("Escribe tu primer valor: "))
     Valor2 = int(input("Escribe tu segundo valor: "))
+    int = Valor1 * Valor2
+    print("Tu resultado es",int)
 
-    print(Valor1 * Valor2)
+#DIVIDE
 elif Operación == ("4"):
     Valor1 = int(input("Escribe tu primer valor: "))
     Valor2 = int(input("Escribe tu segundo valor: "))
+    int = Valor1 / Valor2
+    print("Tu resultado es",int)
 
-    print(Valor1 / Valor2)
-    
 #And here the code tells you that you need to choose the correct option if you hadn't chosen it correctly.
 
 else:
