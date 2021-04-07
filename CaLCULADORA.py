@@ -1,7 +1,7 @@
 #Here the code request you to choose an option
 Operación = input("Elige una opción 1. Sumar 2. Restar 3. Multiplicar 4. Dividir: ")
 
-#Here the code request you the value for the numbers that you want to calculate
+#Here are the different options and code request you the value for the numbers that you want to calculate
 if Operación == ("1"):
     Valor1 = int(input("Escribe tu primer valor: "))
     Valor2 = int(input("Escribe tu segundo valor: "))
