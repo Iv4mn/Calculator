@@ -33,8 +33,8 @@ elif Operación == ("4"):
 
 # --POTENTIATION--
 elif Operación == ("5"):
-    Valor1= int(input("Escribe tu primer valor: "))
-    Valor2= int(input("Escribe la potenciación: "))
+    Valor1= int(input("Escribe la base: "))
+    Valor2= int(input("Escribe el exponente "))
     int = Valor1 ** Valor2
     print("Tu resultado es",int)
 
